@@ -4,28 +4,83 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cosan Anniversay Giveaway</title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+  <title>MATIC GIVEAWAY - Cosan Anniversay</title>
 
+  <meta name="description" content="">
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/favicon.ico" sizes="any">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icon.png">
 
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#1286c9">
+
+  <link rel="stylesheet" href="css/normal.css">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
+  <!-- START CONTAINER -->
+  <main class="container flex-column">
+    <nav class="menu-bar p-15">
+      <img class="logo-cosan-ultah" src="img/logo-cosan-ultah.png" alt="Cosan Ultah">
+    </nav>
 
-  <!-- Add your site or application content here -->
-  <p>Cosan Anniversary 2023</p>
-  <p>Test</p>
+    <!-- GALLERY -->
+    <section class="gallery">
+
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/motor-cosan.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-1.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-2.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-3.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-4.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-5.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-6.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-7.jpg" /></div>
+          <div class="swiper-slide"><img src="img/motor-fazzio-8.jpg" /></div>
+        </div>
+        <!-- If we need pagination -->
+        <button class="swiper-plugin-navigation-prevEl">
+          <img src="img/prev.png" />
+        </button>
+        <button class="swiper-plugin-navigation-nextEl">
+          <img src="img/next.png" />
+        </button>
+
+        <div class="swiper-plugin-pagination"></div>
+
+      </div>
+
+    </section>
+
+    <!-- BUTTON -->
+    <section class="button-group flex-column p-20">
+      <button id="button-ikut" class="g-button button-ikut max">IKUT GIVEAWAY</button>
+      <button id="button-beli" class="g-button button-beli max"><a href="https://www.yamaha-motor.co.id/consultation/?city=KOTA%20YOGYAKARTA&dealer=YA2604&LOCK">PEMBELIAN MOTOR</a></button>
+    </section>
+
+    <!-- INFORMASI -->
+    <section class="p-20">
+      <a
+        href="https://wa.me/628179401093?text=Hai%20kak...%0ASaya%20mau%20tanya%20seputar%20GiveAway%20Cosan%20atau%20Seputar%20Motor"><img
+          src="img/informasi.png" class="max" /></a>
+    </section>
+
+  </main>
+  <!-- END CONTAINER -->
+  <script src="https://unpkg.com/tiny-swiper@latest/lib/index.min.js"></script>
+  <script src="https://unpkg.com/tiny-swiper@latest/lib/modules/navigation.min.js"></script>
+  <script src="https://unpkg.com/tiny-swiper@latest/lib/modules/pagination.min.js"></script>
   <script src="js/app.js"></script>
 
 </body>

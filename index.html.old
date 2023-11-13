@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MATIC GIVEAWAY - Cosan Anniversay</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/my-style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#0c4aaf">
+</head>
+
+<body>
+  <!-- START CONTAINER -->
+  <div class="container">
+    <div class="content">
+      <h3>MATIC GIVEAWAY</h3>
+      <div id="contact">
+        <h4 class="info">
+          <div class="info-text">REGISTRASI</div>
+        </h4>
+        <div class="form-group p-1">
+          <fieldset>
+            <input id="name" name="entry." placeholder="Name" type="text" tabindex="1" autofocus />
+          </fieldset>
+          <fieldset>
+            <input id="wa" name="entry." placeholder="Nomer WA (WhatsApp)" type="tel" tabindex="2" />
+          </fieldset>
+          <fieldset>
+            <div>
+              <select id="kota" name="entry." placeholder="Kota / Kab" type="text" tabindex="3" class="form-select">
+                <optgroup label="Ukuran Baju (*Hanya untuk rider)">
+                  <option hidden disabled selected value=""></option>
+                  <option value="Boyolali">Boyolali</option>
+                  <option value="Surakarta">Surakarta</option>
+                </optgroup>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END CONTAINER -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
